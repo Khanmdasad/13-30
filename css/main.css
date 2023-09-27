@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Merriweather&display=swap");
+:root {
+  --bg-color:#EEF0F6;
+  --contianer-bg-color:#FFFFFF;
+  --text-color: #000000;
+  --btn-bg-color:#2E407E;
+  --link-bg-color: #EEEFF6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: var(--bg-color);
+  font-family: "IBM Plex Sans";
+}
+.wrapper .container {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: var(--contianer-bg-color);
+  padding: 80px;
+  gap: 80px;
+  border-radius: 20px;
+}
+.wrapper .container .header {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 20px;
+}
+.wrapper .container .header h1 {
+  color: var(--text-color);
+  font-family: Merriweather;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.wrapper .container .header .text1 {
+  color: var(--text-color);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38px;
+}
+.wrapper .container .header .text2 {
+  color: var(--btn-bg-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+.wrapper .container .header .text2 a {
+  text-decoration-line: underline;
+}
+.wrapper .container .header .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background: var(--btn-bg-color);
+  color: var(--contianer-bg-color);
+  padding: 15px 40px;
+  border-radius: 32px;
+  cursor: pointer;
+  border: none;
+}
+.wrapper .container .line {
+  width: 40vw;
+  border: 2px solid #EEEFF6;
+}
+.wrapper .container .lower {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  gap: 320px;
+}
+.wrapper .container .lower .btn1 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+.wrapper .container .lower .btn1 a {
+  color: var(--text-color);
+  background-color: var(--link-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  padding: 10px 20px;
+  border: none;
+}
+.wrapper .container .lower .btn2 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+.wrapper .container .lower .btn2 .btn {
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 100%;
+}/*# sourceMappingURL=main.css.map */
